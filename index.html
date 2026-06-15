@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Raízes do Futuro | Agricultura Regenerativa</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="progressBar"></div>
+
+<a href="#conteudo" class="skip-link">
+Pular para o conteúdo
+</a>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+🌱 Raízes do Futuro
+</div>
+
+<ul class="menu">
+
+<li><a href="#diagnostico">Diagnóstico</a></li>
+<li><a href="#simulador">Simulador</a></li>
+<li><a href="#impactos">Impactos</a></li>
+<li><a href="#solucoes">Soluções</a></li>
+<li><a href="#quiz">Quiz</a></li>
+
+</ul>
+
+<div class="accessibility">
+
+<button id="increaseFont">
+A+
+</button>
+
+<button id="decreaseFont">
+A-
+</button>
+
+<button id="contrastBtn">
+Contraste
+</button>
+
+<button id="darkModeBtn">
+🌙
+</button>
+
+</div>
+
+</nav>
+
+</header>
+
+<main id="conteudo">
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<span class="badge">
+Projeto Educacional Interativo
+</span>
+
+<h1>
+Agricultura Regenerativa:
+Cultivando o Futuro sem Degradar o Solo
+</h1>
+
+<p>
+Descubra como práticas sustentáveis podem restaurar ecossistemas,
+aumentar a produtividade agrícola e garantir alimentos para as futuras gerações.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#diagnostico" class="btn primary">
+Explorar
+</a>
+
+<a href="#solucoes" class="btn secondary">
+Ver Soluções
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-gallery">
+
+<img src="solo.png" alt="Solo saudável">
+
+<img src="raiz.png" alt="Agricultura sustentável">
+
+<img src="minhoca.png" alt="Biodiversidade">
+
+</div>
+
+</section>
+
+<!-- PROBLEMATIZAÇÃO -->
+
+<section class="section reveal">
+
+<h2>Por que o solo é tão importante?</h2>
+
+<p>
+O solo fornece nutrientes, água e suporte para as plantas.
+Cerca de 95% dos alimentos consumidos pela humanidade dependem diretamente dele.
+Quando degradado, reduz a produtividade agrícola e afeta o equilíbrio ambiental.
+</p>
+
+</section>
+
+<!-- DASHBOARD -->
+
+<section class="section reveal">
+
+<h2>Panorama Mundial</h2>
+
+<div id="indicators" class="indicator-grid"></div>
+
+</section>
+
+<!-- DIAGNÓSTICO -->
+
+<section id="diagnostico" class="section reveal">
+
+<h2>Principais Problemas</h2>
+
+<div id="diagnosticCards" class="card-grid"></div>
+
+</section>
+
+<!-- SIMULADOR -->
+
+<section id="simulador" class="section reveal">
+
+<h2>Simulador de Recuperação do Solo</h2>
+
+<p>
+Escolha práticas sustentáveis e veja como elas melhoram a saúde do solo.
+</p>
+
+<div class="simulator">
+
+<label>
+<input type="checkbox" id="cobertura">
+Cobertura Vegetal
+</label>
+
+<label>
+<input type="checkbox" id="plantioDireto">
+Plantio Direto
+</label>
+
+<label>
+<input type="checkbox" id="integracao">
+Integração Lavoura-Pecuária
+</label>
+
+<button id="simulateBtn" class="btn primary">
+Calcular
+</button>
+
+<div id="simulationResult" class="simulation-result">
+Saúde do Solo: 0%
+</div>
+
+</div>
+
+</section>
+
+<!-- IMPACTOS -->
+
+<section id="impactos" class="section reveal">
+
+<h2>Impactos da Agricultura Regenerativa</h2>
+
+<div class="tabs">
+
+<div class="tab-buttons">
+
+<button class="tab active" data-tab="ambiental">
+Ambiental
+</button>
+
+<button class="tab" data-tab="social">
+Social
+</button>
+
+<button class="tab" data-tab="economico">
+Econômico
+</button>
+
+<button class="tab" data-tab="educacional">
+Educacional
+</button>
+
+</div>
+
+<div id="tabContent" class="tab-content"></div>
+
+</div>
+
+</section>
+
+<!-- CARROSSEL -->
+
+<section class="section reveal">
+
+<h2>Casos de Sucesso</h2>
+
+<div class="carousel">
+
+<button class="prev">
+❮
+</button>
+
+<div id="carouselTrack"></div>
+
+<button class="next">
+❯
+</button>
+
+</div>
+
+</section>
+
+<!-- LINHA DO TEMPO -->
+
+<section class="section reveal">
+
+<h2>Evolução da Recuperação do Solo</h2>
+
+<div class="timeline">
+
+<div class="card">
+<h3>Ano 1</h3>
+<p>Controle da erosão.</p>
+</div>
+
+<div class="card">
+<h3>Ano 3</h3>
+<p>Aumento da matéria orgânica.</p>
+</div>
+
+<div class="card">
+<h3>Ano 5</h3>
+<p>Maior fertilidade e produtividade.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- VÍDEO -->
+
+<section class="section reveal">
+
+<h2>Vídeo Educativo</h2>
+
+<div class="video-container">
+
+<iframe
+src="Jornada_Subterrânea.mp4"
+title="Agricultura Regenerativa"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</section>
+
+<!-- SOLUÇÕES -->
+
+<section id="solucoes" class="section reveal">
+
+<h2>Soluções Sustentáveis</h2>
+
+<div id="solutionsGrid" class="card-grid"></div>
+
+</section>
+
+<!-- QUIZ -->
+
+<section id="quiz" class="section reveal">
+
+<h2>Quiz Interativo</h2>
+
+<p>
+Teste seus conhecimentos sobre agricultura regenerativa.
+</p>
+
+<div id="scoreBoard">
+Pontuação: <span id="score">0</span>
+</div>
+
+<button id="startQuiz" class="btn primary">
+Iniciar Quiz
+</button>
+
+<div id="quizContainer"></div>
+
+</section>
+
+<!-- CERTIFICADO -->
+
+<section class="section reveal">
+
+<h2>Certificação</h2>
+
+<p>
+Conclua o quiz para conquistar sua certificação.
+</p>
+
+<div id="certificate" class="certificate">
+
+🏆 Certificado de Guardião do Solo
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="section reveal">
+
+<h2>Perguntas Frequentes</h2>
+
+<div id="faqContainer"></div>
+
+</section>
+
+<!-- REFLEXÃO -->
+
+<section class="reflection reveal">
+
+<h2>Reflexão Final</h2>
+
+<p>
+Quais ações podem ser realizadas em sua comunidade para proteger e recuperar os solos?
+</p>
+
+<a href="#conteudo" class="btn secondary">
+Voltar ao Topo
+</a>
+
+</section>
+
+</main>
+
+<footer>
+
+<h3>Raízes do Futuro</h3>
+
+<p>
+Projeto educacional sobre agricultura regenerativa e sustentabilidade.
+</p>
+
+<p>
+© 2026 - Todos os direitos reservados.
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
